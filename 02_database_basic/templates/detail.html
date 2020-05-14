@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    {% if user %}
+        <p>id: {{ user.id }}</p>
+        <p>이름: {{ user.username }}</p>
+        <p>이메일: {{ user.email }}</p>
+    {% endif %}
+</body>
+
+</html>
